@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade - Assystonildo</title>
+  <meta name="description" content="Política de Privacidade da extensão Assystonildo.">
+  <style>
+    :root {
+      --bg: #eef5fb;
+      --surface: #ffffff;
+      --text: #16324a;
+      --muted: #5f7487;
+      --accent: #0b6aa2;
+      --border: #d5e3ef;
+      --shadow: 0 20px 50px rgba(15, 39, 63, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(11, 106, 162, 0.10), transparent 32%),
+        linear-gradient(180deg, #f6fbff 0%, var(--bg) 100%);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+
+    .hero {
+      margin-bottom: 24px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(245, 250, 255, 0.98));
+      box-shadow: var(--shadow);
+    }
+
+    .tag {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(11, 106, 162, 0.10);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .card {
+      margin-top: 18px;
+      padding: 24px 26px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="tag">Assystonildo</div>
+      <h1>Política de Privacidade</h1>
+      <p class="subtitle">Documento de privacidade da extensão Assystonildo, destinada ao apoio operacional no uso do assystweb do TRT3.</p>
+      <p class="meta">Última atualização: 6 de abril de 2026</p>
+    </section>
+
+    <section class="card">
+      <h2>1. Escopo</h2>
+      <p>A extensão Assystonildo foi criada para auxiliar o uso do sistema assystweb do TRT3. Ela atua apenas nos domínios explicitamente declarados em seu manifesto e utiliza somente as informações necessárias para executar seus próprios recursos.</p>
+    </section>
+
+    <section class="card">
+      <h2>2. Dados Tratados</h2>
+      <p>A extensão pode processar dados exibidos nas páginas acessadas pelo usuário dentro dos sistemas suportados, como:</p>
+      <ul>
+        <li>identificadores de chamados</li>
+        <li>nomes exibidos na interface</li>
+        <li>informações de contato</li>
+        <li>dados funcionais ou organizacionais visíveis no contexto do atendimento</li>
+        <li>identificadores funcionais usados para consultar relatórios MA, como login ou shortcode</li>
+      </ul>
+      <p>Esses dados são utilizados exclusivamente para fornecer os recursos da própria extensão.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. Finalidade de Uso</h2>
+      <p>Os dados tratados são usados apenas para:</p>
+      <ul>
+        <li>exibir histórico contextual de chamados</li>
+        <li>apresentar detalhes complementares do atendimento</li>
+        <li>facilitar acesso a contatos e informações relacionadas</li>
+        <li>simplificar tarefas operacionais dentro do fluxo de uso do assystweb</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Compartilhamento de Dados</h2>
+      <p>Os dados não são vendidos.</p>
+      <p>Os dados não são compartilhados com terceiros para publicidade, marketing, perfilização ou revenda.</p>
+      <p>A extensão pode se comunicar com os seguintes serviços somente para executar suas funcionalidades:</p>
+      <ul>
+        <li><code>https://assystweb.trt3.jus.br/</code>, para consultar dados e anexos do assystweb com a sessão autenticada do usuário.</li>
+        <li><code>https://integradorpessoal.trt3.jus.br/</code>, para consultar contatos e informações organizacionais relacionadas ao atendimento.</li>
+        <li><code>https://ma-registrologins-396866479628.southamerica-east1.run.app/</code>, para baixar pacotes de dados MA usados localmente pela extensão.</li>
+        <li><code>https://script.google.com/</code>, quando a fonte MA estiver publicada via Google Apps Script.</li>
+        <li><code>https://docs.google.com/</code> e <code>https://*.googleusercontent.com/</code>, quando a fonte MA estiver configurada em Google Sheets.</li>
+      </ul>
+      <p>Quando recursos baseados em Google Sheets ou Apps Script são usados, o navegador pode enviar cookies de sessão do Google para autenticar o acesso do próprio usuário a esses recursos. A extensão não usa esses dados para publicidade, venda, perfilização ou qualquer finalidade fora do propósito único descrito acima. O uso de informações recebidas de APIs ou serviços Google segue a Política de Dados do Usuário da Chrome Web Store, incluindo os requisitos de Uso Limitado.</p>
+    </section>
+
+    <section class="card">
+      <h2>5. Armazenamento</h2>
+      <p>Quando necessário, a extensão pode armazenar configurações locais no navegador do usuário por meio da API <code>storage</code> do Chrome.</p>
+      <p>A extensão também pode armazenar cache técnico local em IndexedDB para evitar baixar novamente pacotes MA já sincronizados. Esse cache permanece no navegador do usuário.</p>
+    </section>
+
+    <section class="card">
+      <h2>6. Publicidade</h2>
+      <p>A extensão não exibe anúncios.</p>
+    </section>
+
+    <section class="card">
+      <h2>7. Segurança</h2>
+      <p>A extensão solicita apenas as permissões estritamente necessárias ao seu funcionamento e opera somente nos domínios definidos no manifesto.</p>
+      <p>A extensão não solicita acesso a todas as páginas visitadas, não usa <code>activeTab</code> e não acessa <code>localhost</code>.</p>
+    </section>
+
+    <section class="card">
+      <h2>8. Contato</h2>
+      <p>Para dúvidas sobre esta política de privacidade ou sobre a extensão, utilize o canal de contato informado pelo mantenedor da extensão.</p>
+    </section>
+
+    <p class="footer">Assystonildo - Política de Privacidade</p>
+  </main>
+</body>
+</html>
